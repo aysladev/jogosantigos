@@ -1,12 +1,14 @@
-#header{
+.header{
+    padding-top: 50px;
     background-color: #BF0404;
+    font-size: larger;
 }
-#header h1{
+.header h1{
     color: antiquewhite;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-#header p{
+.header p{
     font-size: larger;
     background-color: antiquewhite;
     margin: 50px;
@@ -14,15 +16,18 @@
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     
+    
 }
 body{
     background-color: #F25C05;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 50px;
 }
 h2{
     background-color: black;
     color: white;
     text-align: center;
+    margin: 50px;
 }
 .center {
     display: block;
@@ -30,3 +35,28 @@ h2{
     margin-right: auto;
     width: 50%;
   }
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+li{
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+    margin: 50px;
+    gap: 20px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.gatinhos, .heroi{
+    width: 100px;
+}
+.ifzinho{
+    width: 50px;
+}
+.corpop{
+    align-items: center;
+    text-align: center;
+}
